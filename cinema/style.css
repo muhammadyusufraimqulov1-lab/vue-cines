@@ -1,0 +1,665 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1.6;
+    color: #000;
+    background-color: #040D1F;
+}
+
+/* header boshlandi */
+.img {
+    padding: 20px 0;
+    display: flex;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-image: url(./img/head.fon.png);
+    height: 80px;
+    padding-left: 60px;
+    background-color: #C27500;
+
+}
+
+.img-title {
+    padding: 10px 0;
+    padding-left: 24px;
+    width: 166px;
+    color: #ffffff;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.wra {
+    padding-left: 600px;
+    display: flex;
+}
+
+.img-icon {
+    color: #ffffff;
+}
+
+.header {
+
+    background-color: black;
+}
+
+.img-head {
+    margin-left: 20px;
+    max-width: 1440px;
+}
+
+.container {
+    height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 165px;
+}
+
+.header-wrapper {
+    display: flex;
+}
+
+.header__list {
+    margin-left: 590px;
+    padding: 30px 0;
+    display: flex;
+}
+
+.header__logo-img {
+    width: 103px;
+    height: 42px;
+    top: 109px;
+    left: 165px;
+    opacity: 1;
+}
+
+.contenet {
+    display: flex;
+}
+
+.header__logo {
+    padding: 30px 0;
+    color: white;
+}
+
+.header__link {
+    color: aliceblue;
+    padding-left: 30px;
+}
+
+.header__link-active {
+    position: relative;
+    color: #ED8E00;
+    padding-left: 30px;
+}
+
+.header__link:hover {
+    color: #ED8E00;
+}
+
+
+/* hero section boshlandi */
+.hero {
+    background-position: center;
+    background-image: url(./img/kino\ banner\ orqa\ fon.png);
+    height: 540px;
+    max-width: 100%;
+    margin-bottom: 45px;
+}
+
+.hero-wrapper {
+
+    color: rgb(255, 255, 255);
+}
+
+.hero-wrapper {
+    padding-top: 182px;
+
+}
+
+.hero-title {
+    padding-bottom: 30px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.hero-text {
+    width: 570px;
+    color: #C8C8C8;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: justify;
+    padding-bottom: 60px;
+}
+
+.watch-btn {
+    background-color: #ED8E00;
+    padding: 17px 48px;
+    width: 138px;
+    height: 48px;
+    color: #000000;
+    border: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+/* films section boshlandi */
+.films {
+    height: 540px;
+    max-width: 100%;
+}
+
+.watch-btn:hover {
+    background-color: #c37808;
+}
+
+.bttn {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #ED8E00;
+}
+
+.bttn:hover {
+    color: #c37808;
+}
+
+.lin {
+    margin-bottom: 54px;
+    margin-top: 2px;
+    height: 3px;
+    color: #ED8E00;
+    width: 100px;
+    background-color: #ED8E00;
+}
+
+.box-title {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 12px;
+    color: aliceblue;
+}
+
+.box-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    padding-left: 15px;
+    color: aliceblue;
+}
+
+.box-img {
+    padding-bottom: 20px;
+}
+
+.wrapper-card {
+    gap: 30px;
+    max-width: 100%;
+    border-radius: 6px;
+    display: flex;
+
+}
+
+.wrap-box {
+    background-image: url('./img/orqa\ fon\ section\ 1.png'), url(./img/section\ 1\ rasm.png);
+    border-radius: 6px;
+    background-color: black;
+    width: 355px;
+    height: 367px;
+    top: 978px;
+    left: 165px;
+    opacity: 1;
+}
+
+.wrap-box1 {
+    background-image: url('./img/orqa\ fon\ section\ 1.png'), url('./img/section\ 2\ rasm.png');
+    border-radius: 6px;
+    background-color: black;
+    width: 355px;
+    height: 367px;
+    top: 978px;
+    left: 165px;
+    opacity: 1;
+}
+
+.wrap-box2 {
+    background-image: url('./img/orqa\ fon\ section\ 1.png'), url('./img/section\ 3\ rasm.png');
+    border-radius: 6px;
+    background-color: black;
+    width: 355px;
+    height: 367px;
+    top: 978px;
+    left: 165px;
+    opacity: 1;
+}
+
+.wrap-box3 {
+
+    width: 100%;
+    height: 500px;
+    background-image: url('./img/orqa\ fon\ section\ 1.png'), url('./img/section\ 4\ rasm.png');
+    border-radius: 6px;
+    background-color: black;
+    width: 355px;
+    height: 367px;
+    top: 978px;
+    left: 165px;
+    opacity: 1;
+}
+
+
+.box-button {
+    border: 1px solid white;
+    margin-left: 80px;
+    width: 100px;
+    height: 24px;
+    opacity: 1;
+    border-width: 1px;
+    border-radius: 9px;
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+
+.box-btn:hover {
+    color: #000000;
+}
+
+.box-button:hover {
+    background-color: hsl(36, 85%, 50%);
+}
+
+.box-btn {
+    padding-left: 25px;
+    color: aliceblue;
+    width: 45px;
+    height: 10px;
+    top: 1098px;
+    left: 271px;
+    opacity: 1;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0%;
+}
+
+/* marvel section boshlandi */
+
+.marvel {
+
+    background-image: url(./img/oq\ kok.png), url(./img/toglar\ rasm.png);
+    max-width: 100%;
+    height: 500px;
+
+}
+
+.img-marvel {
+    padding-top: 42px;
+    padding-bottom: 60px;
+}
+
+.marvel-text {
+    width: 558px;
+    padding-bottom: 55px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.marvel-button {
+    background-color: #F18128;
+    color: #ffffff;
+    width: 166px;
+    height: 46px;
+    top: 1797px;
+    left: 165px;
+    opacity: 1;
+    border-radius: 4px;
+}
+
+.marvel-button:hover {
+
+    background-color: #c37808;
+}
+
+/* watch section boshalndi  */
+.watch {
+    max-width: 100%;
+    height: 500px;
+}
+
+.Collections-btn {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #ED8E00;
+}
+
+.Collections-btn:hover {
+    color: #C27500;
+}
+
+.line {
+    margin-bottom: 54px;
+    margin-top: 2px;
+    height: 3px;
+    color: #ED8E00;
+    width: 206px;
+    background-color: #ED8E00;
+
+
+    /* watch section boshalndi */
+}
+
+
+
+.watch-wrapper {
+    padding-top: 60px;
+}
+
+.watch-box1 {
+    background-image: url('./img/marvel\ kinolar\ orqa\ fon.png'), url('./img/marvel\ rasm.png');
+    width: 350px;
+    height: 193px;
+    top: 2079.31px;
+    left: 165px;
+    opacity: 1;
+    border-radius: 6px;
+    display: flex;
+}
+
+.watch-box2 {
+    background-image: url('./img/marvel\ kinolar\ orqa\ fon.png'), url('./img/forsaj\ rasm.png');
+    width: 350px;
+    height: 193px;
+    top: 2079.31px;
+    left: 165px;
+    opacity: 1;
+    border-radius: 6px;
+    display: flex;
+}
+
+.watch-box3 {
+    background-image: url('./img/marvel\ kinolar\ orqa\ fon.png'), url('./img/opalar.png');
+    width: 350px;
+    height: 193px;
+    top: 2079.31px;
+    left: 165px;
+    opacity: 1;
+    border-radius: 6px;
+    display: flex;
+}
+
+
+.watch-card {
+    gap: 30px;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.img-pauza1 {
+
+    width: 19.337017059326172;
+    height: 178.86740112304688;
+    top: 2087.05px;
+    left: 171.77px;
+    
+    opacity: 1;
+    border-radius: 2px;
+
+}
+
+.img-pauza2 {
+    padding: 15px 0;
+    height: 178px;
+    padding-left: 60px;
+
+}
+
+.box {
+    margin-left: 70px;
+}
+
+.img-toxta {
+    padding-left: 50px;
+    padding-top: 57px;
+    padding-bottom: 15px;
+}
+
+.watch-title {
+    color: #ffffff;
+    width: 169px;
+    height: 20px;
+    top: 2198px;
+    left: 261px;
+    font-weight: 700;
+    font-family: "Comfortaa";
+    opacity: 1;
+
+}
+
+.watch-title:hover {
+    color: #ED8E00;
+}
+
+.line1 {
+    margin-bottom: 54px;
+    margin-top: 2px;
+    height: 3px;
+    color: #ED8E00;
+    width: 115px;
+    background-color: #ED8E00;
+}
+
+.big-wrapper {
+    text-align: center;
+    width: 1116px;
+    height: 436px;
+    top: 2433px;
+    left: 162px;
+    opacity: 1;
+    background-position: center;
+    background-image: url('./img/orqa\ fon\ 2.png'), url('./img/game\ of\ thrones.jpg');
+    color: #ffffff;
+}
+
+.big-title {
+    padding-top: 95px;
+    padding-bottom: 30px;
+}
+
+.big-text {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.big-button {
+    background-color: #F18128;
+    width: 160px;
+    height: 46px;
+    opacity: 1;
+    border-radius: 4px;
+    margin-left: 478px;
+    margin-top: 30px;
+}
+
+.big-button:hover {
+    background-color: #c37808;
+}
+
+.wonda {
+    height: 500px;
+}
+
+.wonda-wrapper {
+    padding-top: 150px;
+    text-align: center;
+    margin-top: 30px;
+    width: 540px;
+    height: 404px;
+    top: 2898px;
+    left: 165px;
+    opacity: 1;
+    border-radius: 6px;
+    background-position: center;
+    background-image: url('./img/oila\ fon.png'), url('./img/oila.png');
+}
+
+.wonda-title {
+    color: #ffffff;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.wonda {
+    display: flex;
+
+}
+
+.displey-felx1 {
+    padding-top: 30px;
+
+}
+
+.men-flex {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 43px;
+    text-align: center;
+    width: 255px;
+    height: 183px;
+    opacity: 1;
+    border-radius: 6px;
+    gap: 20px;
+    background-image: url('./img/oila\ fon.png'), url('./img/flesh.png');
+}
+
+.flex1 {
+    padding-top: 30px;
+
+}
+
+.men-flex1 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 43px;
+    text-align: center;
+    width: 255px;
+    height: 183px;
+    opacity: 1;
+    border-radius: 6px;
+    gap: 20px;
+    background-image: url('./img/oila\ fon.png'), url('./img/flesh.png');
+}
+
+.men-flex2 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 43px;
+    text-align: center;
+    width: 255px;
+    height: 183px;
+    opacity: 1;
+    border-radius: 6px;
+    gap: 20px;
+    background-image: url('./img/oila\ fon.png'), url('./img/gotem\ 2\ rasm.png');
+}
+
+.men-flex3 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 43px;
+    text-align: center;
+    width: 255px;
+    height: 183px;
+    opacity: 1;
+    border-radius: 6px;
+    gap: 20px;
+    background-image: url('./img/oila\ fon.png'), url('./img/the\ great\ 3.png');
+}
+
+.men-flex4 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 43px;
+    text-align: center;
+    width: 255px;
+    height: 183px;
+    opacity: 1;
+    border-radius: 6px;
+    gap: 20px;
+    background-image: url('./img/oila\ fon.png'), url('./img/3\ kishi.png');
+}
+
+.wonda-title:hover {
+    color: #c37808;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 1000px;
+    height: 80px;
+    background-color: #F18128;
+}
+
+.wrap-aps {
+    display: flex;
+}
+
+.aps-title {
+    color: #ffffff;
+    padding: 30px;
+    padding-left: 500px;
+}
+
+.imga {
+    padding: 26px 0;
+}
+
+.img {
+    padding-left: 50px;
+
+}
